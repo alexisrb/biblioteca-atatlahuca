@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de libros</title>
+  </head>
+  <body>
+    <h1>Lista de libros 2</h1>
+  
+    <ul>
+
+      {% for l in lista_libros %}
+        <li>{{ l.titulo }} -- {{ l.fecha }} </li>  
+      {% endfor %}
+    </ul>
+  </body>
+</html>
